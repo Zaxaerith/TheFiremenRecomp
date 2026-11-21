@@ -1,0 +1,3 @@
+snesrecomp=22c01ef12cc94767451d0b218e4fc341bc19043e
+snesrecomp_ref=v0.4.6-alpha
+snesrecomp_url=https://github.com/RetroPortingToolKit/snesrecomp.git

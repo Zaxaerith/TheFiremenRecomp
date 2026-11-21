@@ -1,0 +1,26 @@
+# ROM identity for The Firemen — the single source of truth.
+#
+# Read by three consumers, so a revision change is made once, here:
+#   - the build   (CMake generates snesrecomp_rom_identity.h from this file)
+#   - tools/regen.sh
+#   - .github/workflows/release.yml
+#
+# Format is `key = value`, one per line; `#` starts a comment. Values may be
+# quoted. Leaving a digest empty means the build cannot verify a ROM it is
+# handed — it will say so rather than accept it.
+
+display_name    = The Firemen
+rom_file        = Firemen, The (J).smc
+# Every digest of the bare image (copier header stripped), so the Retro
+# catalog can take a submission's identity from this file rather than ask
+# the submitter to hash the ROM again. The build verifies on crc32/sha256.
+expected_crc32  = 15f2271d
+expected_md5    = 79c9ffe304fa775ce3ec15270058f41b
+expected_sha1   = b2bb5c41d5cea5a9a130c3063857ba9ec000e166
+expected_sha256 = 97206402d1cacc3187a600a5f3a7ebd73ddba0c7e09a5a688efeca47cc46b604
+rom_size        = 1048576
+mapping         = lorom
+region          = JPN
+# What a mod package's [[target]] game_id must name to apply to this title
+# (snesrecomp/docs/MOD_PACKAGES.md). Stable across revisions on purpose.
+game_id         = thefiremen-jpn
