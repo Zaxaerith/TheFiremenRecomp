@@ -19,3 +19,10 @@ addr = "fff0"
 bank = 0
 emit = false
 note = "Native NMI vector ($FFEA)"
+
+[[func]]
+name = "I_IRQ"
+addr = "fff8"
+bank = 0
+emit = false
+note = "Native IRQ vector ($FFEE)"
