@@ -26,3 +26,1245 @@ addr = "fff8"
 bank = 0
 emit = true
 note = "Native IRQ vector ($FFEE) -> JML $80:8360"
+
+[[func]]
+name = "T2_80813A"
+addr = "813a"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x81CA5F (hits=24)"
+
+[[func]]
+name = "T2_8082CA"
+addr = "82ca"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x81CDA6, 0x81CDB0, 0x81CE88 (hits=1)"
+
+[[func]]
+name = "T2_8083A7"
+addr = "83a7"
+bank = 0x80
+entry_m = 1
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x80838A, 0x8086D7 (hits=23)"
+
+[[func]]
+name = "T2_8083C8"
+addr = "83c8"
+bank = 0x80
+entry_m = 1
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x808647 (hits=1)"
+
+[[func]]
+name = "T2_808516"
+addr = "8516"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x81D17C (hits=1)"
+
+[[func]]
+name = "T2_80853B"
+addr = "853b"
+bank = 0x80
+entry_m = 1
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x808521 (hits=1)"
+
+[[func]]
+name = "T2_808666"
+addr = "8666"
+bank = 0x80
+entry_m = 1
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x808534, 0x81D1B0 (hits=1)"
+
+[[func]]
+name = "T2_808684"
+addr = "8684"
+bank = 0x80
+entry_m = 1
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x80866F, 0x81CFC1 (hits=2)"
+
+[[func]]
+name = "T2_80869F"
+addr = "869f"
+bank = 0x80
+entry_m = 1
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x80855E (hits=1)"
+
+[[func]]
+name = "T2_8086A7"
+addr = "86a7"
+bank = 0x80
+entry_m = 1
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x808688 (hits=3)"
+
+[[func]]
+name = "T2_8086C1"
+addr = "86c1"
+bank = 0x80
+entry_m = 1
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x8086AC (hits=4)"
+
+[[func]]
+name = "T2_8086DE"
+addr = "86de"
+bank = 0x80
+entry_m = 1
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x808684 (hits=3)"
+
+[[func]]
+name = "T2_808732"
+addr = "8732"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x808143 (hits=25)"
+
+[[func]]
+name = "T2_808771"
+addr = "8771"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x808146 (hits=25)"
+
+[[func]]
+name = "T2_808796"
+addr = "8796"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x80852C (hits=1)"
+
+[[func]]
+name = "T2_808890"
+addr = "8890"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x80DA5F (hits=1)"
+
+[[func]]
+name = "T2_8089EC"
+addr = "89ec"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x808712 (hits=3)"
+
+[[func]]
+name = "T2_809074"
+addr = "9074"
+bank = 0x80
+entry_m = 1
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x81CFD6 (hits=1)"
+
+[[func]]
+name = "T2_81803E"
+addr = "803e"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x81D1BF (hits=1)"
+
+[[func]]
+name = "T2_818FBE"
+addr = "8fbe"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x81D180 (hits=1)"
+
+[[func]]
+name = "T2_81CA5F"
+addr = "ca5f"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x81CF00 (hits=24)"
+
+[[func]]
+name = "T2_81CDA0"
+addr = "cda0"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x81D1C3 (hits=1)"
+
+[[func]]
+name = "T2_81CE82"
+addr = "ce82"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x81D1C6 (hits=1)"
+
+[[func]]
+name = "T2_81CF52"
+addr = "cf52"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x81D1AA (hits=1)"
+
+[[func]]
+name = "T2_81E097"
+addr = "e097"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x8000CA (hits=23)"
+
+[[func]]
+name = "T2_828070"
+addr = "8070"
+bank = 0x82
+entry_m = 1
+entry_x = 0
+emit = true
+note = "R1-180f: from 0x818FC4 (hits=1)"
+
+[[func]]
+name = "T2_808321"
+addr = "8321"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80D893, 0x80D89A, 0x81CD94 (hits=1)"
+
+[[func]]
+name = "T2_808340"
+addr = "8340"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x818057, 0x819A28, 0x819BBF (hits=675)"
+
+[[func]]
+name = "T2_808887"
+addr = "8887"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80D5AF, 0x80D8AD, 0x80DAFF (hits=675)"
+
+[[func]]
+name = "T2_80911D"
+addr = "911d"
+bank = 0x80
+entry_m = 1
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x818E53, 0x81D054 (hits=73)"
+
+[[func]]
+name = "T2_809183"
+addr = "9183"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80D8FA (hits=1)"
+
+[[func]]
+name = "T2_809261"
+addr = "9261"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80DA7F (hits=1)"
+
+[[func]]
+name = "T2_8093F0"
+addr = "93f0"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80DA97 (hits=1)"
+
+[[func]]
+name = "T2_80970A"
+addr = "970a"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80DAE8 (hits=1)"
+
+[[func]]
+name = "T2_80D5D5"
+addr = "d5d5"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80B222 (hits=391)"
+
+[[func]]
+name = "T2_80D622"
+addr = "d622"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80DA68 (hits=1)"
+
+[[func]]
+name = "T2_80D8B4"
+addr = "d8b4"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80D876 (hits=1)"
+
+[[func]]
+name = "T2_80D8FF"
+addr = "d8ff"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80D7AF (hits=2)"
+
+[[func]]
+name = "T2_80D906"
+addr = "d906"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x8000CF (hits=2)"
+
+[[func]]
+name = "T2_80D960"
+addr = "d960"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80D922, 0x80D92D, 0x80D938 (hits=16)"
+
+[[func]]
+name = "T2_80D9F4"
+addr = "d9f4"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x8000CA (hits=1)"
+
+[[func]]
+name = "T2_80D9FF"
+addr = "d9ff"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x8000CA (hits=1)"
+
+[[func]]
+name = "T2_80DA07"
+addr = "da07"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x8000CA (hits=1)"
+
+[[func]]
+name = "T2_80DA40"
+addr = "da40"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x8000CA (hits=1)"
+
+[[func]]
+name = "T2_80DB66"
+addr = "db66"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80DAE4 (hits=1)"
+
+[[func]]
+name = "T2_80E2F2"
+addr = "e2f2"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80E223 (hits=4)"
+
+[[func]]
+name = "T2_80E337"
+addr = "e337"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80E223 (hits=529)"
+
+[[func]]
+name = "T2_80E36A"
+addr = "e36a"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80E223 (hits=6)"
+
+[[func]]
+name = "T2_80E3F2"
+addr = "e3f2"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80E223 (hits=14)"
+
+[[func]]
+name = "T2_80E410"
+addr = "e410"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80E223 (hits=6)"
+
+[[func]]
+name = "T2_80E498"
+addr = "e498"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80E223 (hits=6)"
+
+[[func]]
+name = "T2_80E5ED"
+addr = "e5ed"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80E223 (hits=1)"
+
+[[func]]
+name = "T2_80E7E9"
+addr = "e7e9"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80E223 (hits=1)"
+
+[[func]]
+name = "T2_80EC20"
+addr = "ec20"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80E223 (hits=1)"
+
+[[func]]
+name = "T2_80F278"
+addr = "f278"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80EE08 (hits=146)"
+
+[[func]]
+name = "T2_80F27B"
+addr = "f27b"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80EE08 (hits=4)"
+
+[[func]]
+name = "T2_80F2F4"
+addr = "f2f4"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80EE08 (hits=16)"
+
+[[func]]
+name = "T2_80F35E"
+addr = "f35e"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80EE08 (hits=6)"
+
+[[func]]
+name = "T2_80F380"
+addr = "f380"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80EE08 (hits=101)"
+
+[[func]]
+name = "T2_80F4AD"
+addr = "f4ad"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80EE08 (hits=370)"
+
+[[func]]
+name = "T2_80F4DD"
+addr = "f4dd"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80EE08 (hits=6)"
+
+[[func]]
+name = "T2_80F552"
+addr = "f552"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80EE08 (hits=6)"
+
+[[func]]
+name = "T2_80F590"
+addr = "f590"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80EE08 (hits=8)"
+
+[[func]]
+name = "T2_80F5B2"
+addr = "f5b2"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80EE08 (hits=4)"
+
+[[func]]
+name = "T2_80F5D0"
+addr = "f5d0"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80EE08 (hits=6)"
+
+[[func]]
+name = "T2_80F5FC"
+addr = "f5fc"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80EE08 (hits=2)"
+
+[[func]]
+name = "T2_81804B"
+addr = "804b"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80D498 (hits=675)"
+
+[[func]]
+name = "T2_81805B"
+addr = "805b"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x8000CF (hits=674)"
+
+[[func]]
+name = "T2_818185"
+addr = "8185"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80A05C, 0x80AF1F (hits=675)"
+
+[[func]]
+name = "T2_8181AD"
+addr = "81ad"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80D490 (hits=675)"
+
+[[func]]
+name = "T2_818250"
+addr = "8250"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x818230 (hits=1350)"
+
+[[func]]
+name = "T2_81827E"
+addr = "827e"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80D494 (hits=675)"
+
+[[func]]
+name = "T2_818435"
+addr = "8435"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80A807 (hits=675)"
+
+[[func]]
+name = "T2_8184D5"
+addr = "84d5"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x809985, 0x8099F1 (hits=67)"
+
+[[func]]
+name = "T2_818519"
+addr = "8519"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x809A03 (hits=583)"
+
+[[func]]
+name = "T2_818539"
+addr = "8539"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80B0BE (hits=51)"
+
+[[func]]
+name = "T2_818824"
+addr = "8824"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80E491 (hits=6)"
+
+[[func]]
+name = "T2_818861"
+addr = "8861"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81883E (hits=1)"
+
+[[func]]
+name = "T2_818894"
+addr = "8894"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81883E (hits=2)"
+
+[[func]]
+name = "T2_8188D9"
+addr = "88d9"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81883E (hits=1)"
+
+[[func]]
+name = "T2_8188DF"
+addr = "88df"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81883E (hits=2)"
+
+[[func]]
+name = "T2_818A16"
+addr = "8a16"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80E4AC (hits=6)"
+
+[[func]]
+name = "T2_818A28"
+addr = "8a28"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80E3EB (hits=6)"
+
+[[func]]
+name = "T2_818A54"
+addr = "8a54"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x818A41 (hits=1)"
+
+[[func]]
+name = "T2_818A84"
+addr = "8a84"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x818A41 (hits=1)"
+
+[[func]]
+name = "T2_818B07"
+addr = "8b07"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x818A41 (hits=4)"
+
+[[func]]
+name = "T2_818B53"
+addr = "8b53"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80E409 (hits=6)"
+
+[[func]]
+name = "T2_818DB1"
+addr = "8db1"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80F42D, 0x80F56D, 0x80F63C (hits=49)"
+
+[[func]]
+name = "T2_818E64"
+addr = "8e64"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80E85E (hits=1)"
+
+[[func]]
+name = "T2_818E8D"
+addr = "8e8d"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x9FCC97 (hits=4)"
+
+[[func]]
+name = "T2_818EB6"
+addr = "8eb6"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81D922 (hits=1)"
+
+[[func]]
+name = "T2_818FAE"
+addr = "8fae"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80972B, 0x809734, 0x80973F (hits=675)"
+
+[[func]]
+name = "T2_8190A4"
+addr = "90a4"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80EDF9 (hits=675)"
+
+[[func]]
+name = "T2_819900"
+addr = "9900"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80F1CB (hits=13)"
+
+[[func]]
+name = "T2_819A2C"
+addr = "9a2c"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x8000CF (hits=13)"
+
+[[func]]
+name = "T2_819A81"
+addr = "9a81"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80F1D9 (hits=13)"
+
+[[func]]
+name = "T2_819BC3"
+addr = "9bc3"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x8000CF (hits=13)"
+
+[[func]]
+name = "T2_81A0BD"
+addr = "a0bd"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81BAD6 (hits=8)"
+
+[[func]]
+name = "T2_81A4B8"
+addr = "a4b8"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x809BD5 (hits=4)"
+
+[[func]]
+name = "T2_81A523"
+addr = "a523"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80DFAA (hits=170)"
+
+[[func]]
+name = "T2_81A6E2"
+addr = "a6e2"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80DEE1 (hits=2)"
+
+[[func]]
+name = "T2_81A7C1"
+addr = "a7c1"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80A3A7, 0x80A5EE, 0x80A926 (hits=2700)"
+
+[[func]]
+name = "T2_81A7F2"
+addr = "a7f2"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80B189, 0x80B196 (hits=27)"
+
+[[func]]
+name = "T2_81A810"
+addr = "a810"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81A7FC (hits=54)"
+
+[[func]]
+name = "T2_81B260"
+addr = "b260"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x9FCD41 (hits=2)"
+
+[[func]]
+name = "T2_81B84E"
+addr = "b84e"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x9FCA11, 0x9FCA1B, 0x9FCA25 (hits=1)"
+
+[[func]]
+name = "T2_81BA8E"
+addr = "ba8e"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80DACB, 0x80DAE0 (hits=8)"
+
+[[func]]
+name = "T2_81BAF6"
+addr = "baf6"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x8000CF (hits=8)"
+
+[[func]]
+name = "T2_81BFA1"
+addr = "bfa1"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80F401 (hits=101)"
+
+[[func]]
+name = "T2_81C007"
+addr = "c007"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80F2F4, 0x80F59A (hits=16)"
+
+[[func]]
+name = "T2_81C054"
+addr = "c054"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80F4A6, 0x80F672 (hits=101)"
+
+[[func]]
+name = "T2_81C0CC"
+addr = "c0cc"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x9FCBAB (hits=1)"
+
+[[func]]
+name = "T2_81C14F"
+addr = "c14f"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x8000CA (hits=1363)"
+
+[[func]]
+name = "T2_81C1A3"
+addr = "c1a3"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x8000CA (hits=1363)"
+
+[[func]]
+name = "T2_81C1B3"
+addr = "c1b3"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x8000CA (hits=1363)"
+
+[[func]]
+name = "T2_81C227"
+addr = "c227"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x8000CA (hits=1363)"
+
+[[func]]
+name = "T2_81C237"
+addr = "c237"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x8000CA (hits=1363)"
+
+[[func]]
+name = "T2_81C28A"
+addr = "c28a"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x8000CA (hits=1363)"
+
+[[func]]
+name = "T2_81C308"
+addr = "c308"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x8000CA (hits=1363)"
+
+[[func]]
+name = "T2_81CA99"
+addr = "ca99"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81CBDB (hits=1)"
+
+[[func]]
+name = "T2_81CB5F"
+addr = "cb5f"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81D515 (hits=1)"
+
+[[func]]
+name = "T2_81CBB3"
+addr = "cbb3"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81D365 (hits=1)"
+
+[[func]]
+name = "T2_81CC61"
+addr = "cc61"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81D935, 0x81D947, 0x81D959 (hits=1)"
+
+[[func]]
+name = "T2_81CD45"
+addr = "cd45"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81D92C, 0x81D93E, 0x81D950 (hits=1)"
+
+[[func]]
+name = "T2_81CD7C"
+addr = "cd7c"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81D369 (hits=1)"
+
+[[func]]
+name = "T2_81CD91"
+addr = "cd91"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81D50F (hits=1)"
+
+[[func]]
+name = "T2_81CDB5"
+addr = "cdb5"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81D21C (hits=1)"
+
+[[func]]
+name = "T2_81CDC4"
+addr = "cdc4"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81D36C (hits=1)"
+
+[[func]]
+name = "T2_81CE3A"
+addr = "ce3a"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81D81E, 0x81D874, 0x81D95C (hits=132)"
+
+[[func]]
+name = "T2_81CE72"
+addr = "ce72"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81D50C (hits=1)"
+
+[[func]]
+name = "T2_81CF0A"
+addr = "cf0a"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81D21F (hits=1)"
+
+[[func]]
+name = "T2_81CFF8"
+addr = "cff8"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81D4D5 (hits=1)"
+
+[[func]]
+name = "T2_81D0D0"
+addr = "d0d0"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81D3A3 (hits=1)"
+
+[[func]]
+name = "T2_81D112"
+addr = "d112"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x8000CF (hits=1)"
+
+[[func]]
+name = "T2_81D828"
+addr = "d828"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x81D36F (hits=1)"
+
+[[func]]
+name = "T2_9FC110"
+addr = "c110"
+bank = 0x9f
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80DA83 (hits=1)"
+
+[[func]]
+name = "T2_9FC370"
+addr = "c370"
+bank = 0x9f
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x80DA9B (hits=1)"
+
+[[func]]
+name = "T2_9FC597"
+addr = "c597"
+bank = 0x9f
+entry_m = 0
+entry_x = 0
+emit = true
+note = "R2-stage1: from 0x9FC594 (hits=1)"
