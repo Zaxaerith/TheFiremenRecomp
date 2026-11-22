@@ -10,19 +10,19 @@
 name = "I_RESET"
 addr = "ffe0"
 bank = 0
-emit = false
-note = "Emulation RESET vector ($FFFC)"
+emit = true
+note = "Emulation RESET vector ($FFFC) -> CLC; XCE; JML $80:8000"
 
 [[func]]
 name = "I_NMI"
 addr = "fff0"
 bank = 0
-emit = false
-note = "Native NMI vector ($FFEA)"
+emit = true
+note = "Native NMI vector ($FFEA) -> JML $80:817E"
 
 [[func]]
 name = "I_IRQ"
 addr = "fff8"
 bank = 0
-emit = false
-note = "Native IRQ vector ($FFEE)"
+emit = true
+note = "Native IRQ vector ($FFEE) -> JML $80:8360"
