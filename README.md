@@ -1,9 +1,9 @@
 # The Firemen Recomp
 
-A native recompilation of **The Firemen** (JPN), built on
+A native recompilation of **The Firemen** (JPN, Human Entertainment, 1994), built on
 [snesrecomp](https://github.com/RetroPortingToolKit/snesrecomp).
 
-_Add a short description here._
+Top-down action firefighting game for Super Famicom (`FastROM LoROM`, no coprocessor, password save system).
 
 
 
@@ -13,20 +13,17 @@ _Add a short description here._
 
 ## Status
 
-Scaffolded on 2026-11-21 — **not yet a working port.** The layout, build,
-regeneration pipeline, CI, and packaging are wired up; the game does not run
-until the host work in `src/game_rtl.c` is done. See
-[Porting from here](#porting-from-here).
+Active playable recompilation (`337` AOT-eligible / `8` LLE-only exact variants across banks `$00/$80/$81/$82/$9F` via `recomp/generate.toml` `instruction_blocks + region_paced`), verified across 5 headless regression scenarios (`15,399` total frames) against Pure LLE.
 
 ## ROM identity
 
 | | |
 |---|---|
 | File | `Firemen, The (J).smc` |
-| Publisher | — |
-| Developer | — |
-| Year | — |
-| Mapping | lorom |
+| Publisher | Human Entertainment |
+| Developer | Human Entertainment |
+| Year | 1994 |
+| Mapping | lorom (FastROM) |
 | Region | JPN (Japan) |
 | Coprocessor | none |
 | CRC32 | `15f2271d` |
@@ -39,7 +36,7 @@ revision fails immediately instead of producing subtly wrong output.
 
 ```sh
 git submodule update --init --recursive
-bash tools/regen.sh --rom /path/to/Firemen, The (J).smc
+bash tools/regen.sh --rom "/path/to/Firemen, The (J).smc"
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build -j
 ```
@@ -56,8 +53,8 @@ both from ever being committed.
 ## Run
 
 ```sh
-./build/TheFiremenSNESRecomp                     # launcher picks the ROM
-./build/TheFiremenSNESRecomp /path/to/Firemen, The (J).smc # or name it and skip the launcher
+./build/TheFiremenSNESRecomp                               # launcher picks the ROM
+./build/TheFiremenSNESRecomp "/path/to/Firemen, The (J).smc" # or name it and skip the launcher
 ```
 
 With no ROM on the command line the build opens the recomp-ui launcher: a ROM

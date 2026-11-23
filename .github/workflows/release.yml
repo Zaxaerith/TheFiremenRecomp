@@ -1,4 +1,4 @@
-# Build the The Firemen SETUP PACK for Linux, Windows, macOS
+# Build the Firemen SETUP PACK for Linux, Windows, macOS
 # arm64 and macOS Intel, tag the commit, and publish the four zips as a
 # GitHub Release.
 #

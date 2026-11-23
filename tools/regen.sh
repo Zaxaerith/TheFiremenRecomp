@@ -69,7 +69,7 @@ RESOLVE=(resolve-rom --project-root "$ROOT"
          --name "Firemen, The (J).smc" --name "thefiremen.sfc" --name "thefiremen.smc")
 if [ -n "$ROM" ]; then RESOLVE+=(--rom "$ROM"); fi
 if ! ROM=$("$PYTHON" "$CLI" "${RESOLVE[@]}"); then
-  echo "regen.sh: pass --rom /path/to/Firemen, The (J).smc, set SNESRECOMP_ROM, put it" >&2
+  echo 'regen.sh: pass --rom "/path/to/Firemen, The (J).smc", set SNESRECOMP_ROM, put it' >&2
   echo "          at the repo root, or record its path in rom.cfg. You must" >&2
   echo "          legally own a copy of The Firemen." >&2
   exit 1

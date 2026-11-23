@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Package a The Firemen release: a SETUP PACK.
+# Package The Firemen SETUP PACK release.
 #
 # The zip does not contain the game. It contains a setup program (the host
 # built with -DSNESRECOMP_SETUP_HOST=ON, i.e. without recompiled code), the
