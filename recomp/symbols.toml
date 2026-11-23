@@ -1268,3 +1268,66 @@ entry_m = 0
 entry_x = 0
 emit = true
 note = "R2-stage1: from 0x9FC594 (hits=1)"
+
+[[func]]
+name = "T2_80BC3D"
+addr = "bc3d"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "m6_stage1_deep: from 0x80BBF6 (hits=2130)"
+
+[[func]]
+name = "T2_80BCF4"
+addr = "bcf4"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "m6_stage1_deep: from 0x80BBF6 (hits=239)"
+
+[[func]]
+name = "T2_80BE55"
+addr = "be55"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "m6_stage1_deep: from 0x80BBF6 (hits=68)"
+
+[[func]]
+name = "T2_80D5B6"
+addr = "d5b6"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "m6_stage1_deep: from 0x80B88B (hits=2)"
+
+[[func]]
+name = "T2_80F327"
+addr = "f327"
+bank = 0x80
+entry_m = 0
+entry_x = 0
+emit = true
+note = "m6_stage1_deep: from 0x80EE08 (hits=4)"
+
+[[func]]
+name = "T2_818758"
+addr = "8758"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "m6_stage1_deep: from 0x80D05C (hits=7)"
+
+[[func]]
+name = "T2_819065"
+addr = "9065"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "m6_stage1_deep: from 0x80D54F (hits=16)"
