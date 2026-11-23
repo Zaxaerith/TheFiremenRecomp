@@ -1331,3 +1331,102 @@ entry_m = 0
 entry_x = 0
 emit = true
 note = "m6_stage1_deep: from 0x80D54F (hits=16)"
+
+[[func]]
+name = "T2_80813D"
+addr = "813d"
+bank = 0x80
+entry_m = 1
+entry_x = 0
+emit = true
+note = "m7_gameover: from 0x80872A (hits=30)"
+
+[[func]]
+name = "T2_808729"
+addr = "8729"
+bank = 0x80
+entry_m = 1
+entry_x = 0
+emit = true
+note = "m7_gameover: from 0x818033 (hits=15)"
+
+[[func]]
+name = "T2_818023"
+addr = "8023"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "m7_gameover: from 0x81E1B3 (hits=1)"
+
+[[func]]
+name = "T2_81C13D"
+addr = "c13d"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "m7_gameover: from 0x8000CF (hits=1)"
+
+[[func]]
+name = "T2_81C2B0"
+addr = "c2b0"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = false
+note = "m7_gameover: force_lle mid-frame PPU W34SEL/WOBJSEL raster IRQ via 0x8000CA (hits=747)"
+
+[[func]]
+name = "T2_81CE11"
+addr = "ce11"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "m7_gameover: from 0x81E18D (hits=1)"
+
+[[func]]
+name = "T2_81CE6B"
+addr = "ce6b"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "m7_gameover: from 0x81E1CC (hits=1)"
+
+[[func]]
+name = "T2_81E0E9"
+addr = "e0e9"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "m7_gameover: from 0x80DB4B (hits=1)"
+
+[[func]]
+name = "T2_81EF04"
+addr = "ef04"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "m7_gameover: from 0x81E157 (hits=1)"
+
+[[func]]
+name = "T2_81EF3E"
+addr = "ef3e"
+bank = 0x81
+entry_m = 0
+entry_x = 0
+emit = true
+note = "m7_gameover: from 0x81E15E (hits=1)"
+
+[[func]]
+name = "T2_9FCF53"
+addr = "cf53"
+bank = 0x9f
+entry_m = 0
+entry_x = 0
+emit = true
+note = "m7_gameover: from 0x9FC594 (hits=1)"
