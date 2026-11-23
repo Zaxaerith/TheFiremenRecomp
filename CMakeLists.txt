@@ -60,6 +60,14 @@ snesrecomp_rom_identity(TheFiremenSNESRecomp ${CMAKE_SOURCE_DIR}/rom_identity.tx
 # still a hard error (the framework owns the message).
 snesrecomp_target_generated_code(TheFiremenSNESRecomp ${CMAKE_SOURCE_DIR}/src/gen)
 
+option(FIREMEN_DEV_FAST_GEN "Use -O1 for generated C files during local dev" OFF)
+if(FIREMEN_DEV_FAST_GEN AND NOT MSVC)
+    file(GLOB _firemen_gen_sources CONFIGURE_DEPENDS "${CMAKE_SOURCE_DIR}/src/gen/*.c")
+    set_source_files_properties(${_firemen_gen_sources} PROPERTIES
+        COMPILE_OPTIONS "-O1;-w")
+    message(STATUS "TheFiremenSNESRecomp: FIREMEN_DEV_FAST_GEN=ON -> -O1 for generated C files")
+endif()
+
 # The mod catalog. This names WHERE the packages are; the framework owns the
 # layout they are staged into beside the executable, and stages them on every
 # build OF THE EXECUTABLE -- including the launcher's own Generate & rebuild on

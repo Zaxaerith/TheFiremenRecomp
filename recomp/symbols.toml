@@ -433,195 +433,6 @@ emit = true
 note = "R2-stage1: from 0x80DAE4 (hits=1)"
 
 [[func]]
-name = "T2_80E2F2"
-addr = "e2f2"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80E223 (hits=4)"
-
-[[func]]
-name = "T2_80E337"
-addr = "e337"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80E223 (hits=529)"
-
-[[func]]
-name = "T2_80E36A"
-addr = "e36a"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80E223 (hits=6)"
-
-[[func]]
-name = "T2_80E3F2"
-addr = "e3f2"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80E223 (hits=14)"
-
-[[func]]
-name = "T2_80E410"
-addr = "e410"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80E223 (hits=6)"
-
-[[func]]
-name = "T2_80E498"
-addr = "e498"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80E223 (hits=6)"
-
-[[func]]
-name = "T2_80E5ED"
-addr = "e5ed"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80E223 (hits=1)"
-
-[[func]]
-name = "T2_80E7E9"
-addr = "e7e9"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80E223 (hits=1)"
-
-[[func]]
-name = "T2_80EC20"
-addr = "ec20"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80E223 (hits=1)"
-
-[[func]]
-name = "T2_80F278"
-addr = "f278"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80EE08 (hits=146)"
-
-[[func]]
-name = "T2_80F27B"
-addr = "f27b"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80EE08 (hits=4)"
-
-[[func]]
-name = "T2_80F2F4"
-addr = "f2f4"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80EE08 (hits=16)"
-
-[[func]]
-name = "T2_80F35E"
-addr = "f35e"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80EE08 (hits=6)"
-
-[[func]]
-name = "T2_80F380"
-addr = "f380"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80EE08 (hits=101)"
-
-[[func]]
-name = "T2_80F4AD"
-addr = "f4ad"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80EE08 (hits=370)"
-
-[[func]]
-name = "T2_80F4DD"
-addr = "f4dd"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80EE08 (hits=6)"
-
-[[func]]
-name = "T2_80F552"
-addr = "f552"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80EE08 (hits=6)"
-
-[[func]]
-name = "T2_80F590"
-addr = "f590"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80EE08 (hits=8)"
-
-[[func]]
-name = "T2_80F5B2"
-addr = "f5b2"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80EE08 (hits=4)"
-
-[[func]]
-name = "T2_80F5D0"
-addr = "f5d0"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80EE08 (hits=6)"
-
-[[func]]
-name = "T2_80F5FC"
-addr = "f5fc"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x80EE08 (hits=2)"
-
-[[func]]
 name = "T2_81804B"
 addr = "804b"
 bank = 0x81
@@ -721,42 +532,6 @@ emit = true
 note = "R2-stage1: from 0x80E491 (hits=6)"
 
 [[func]]
-name = "T2_818861"
-addr = "8861"
-bank = 0x81
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x81883E (hits=1)"
-
-[[func]]
-name = "T2_818894"
-addr = "8894"
-bank = 0x81
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x81883E (hits=2)"
-
-[[func]]
-name = "T2_8188D9"
-addr = "88d9"
-bank = 0x81
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x81883E (hits=1)"
-
-[[func]]
-name = "T2_8188DF"
-addr = "88df"
-bank = 0x81
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x81883E (hits=2)"
-
-[[func]]
 name = "T2_818A16"
 addr = "8a16"
 bank = 0x81
@@ -773,33 +548,6 @@ entry_m = 0
 entry_x = 0
 emit = true
 note = "R2-stage1: from 0x80E3EB (hits=6)"
-
-[[func]]
-name = "T2_818A54"
-addr = "8a54"
-bank = 0x81
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x818A41 (hits=1)"
-
-[[func]]
-name = "T2_818A84"
-addr = "8a84"
-bank = 0x81
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x818A41 (hits=1)"
-
-[[func]]
-name = "T2_818B07"
-addr = "8b07"
-bank = 0x81
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x818A41 (hits=4)"
 
 [[func]]
 name = "T2_818B53"
@@ -953,15 +701,6 @@ entry_m = 0
 entry_x = 0
 emit = true
 note = "R2-stage1: from 0x80B189, 0x80B196 (hits=27)"
-
-[[func]]
-name = "T2_81A810"
-addr = "a810"
-bank = 0x81
-entry_m = 0
-entry_x = 0
-emit = true
-note = "R2-stage1: from 0x81A7FC (hits=54)"
 
 [[func]]
 name = "T2_81B260"
@@ -1270,33 +1009,6 @@ emit = true
 note = "R2-stage1: from 0x9FC594 (hits=1)"
 
 [[func]]
-name = "T2_80BC3D"
-addr = "bc3d"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "m6_stage1_deep: from 0x80BBF6 (hits=2130)"
-
-[[func]]
-name = "T2_80BCF4"
-addr = "bcf4"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "m6_stage1_deep: from 0x80BBF6 (hits=239)"
-
-[[func]]
-name = "T2_80BE55"
-addr = "be55"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "m6_stage1_deep: from 0x80BBF6 (hits=68)"
-
-[[func]]
 name = "T2_80D5B6"
 addr = "d5b6"
 bank = 0x80
@@ -1304,15 +1016,6 @@ entry_m = 0
 entry_x = 0
 emit = true
 note = "m6_stage1_deep: from 0x80B88B (hits=2)"
-
-[[func]]
-name = "T2_80F327"
-addr = "f327"
-bank = 0x80
-entry_m = 0
-entry_x = 0
-emit = true
-note = "m6_stage1_deep: from 0x80EE08 (hits=4)"
 
 [[func]]
 name = "T2_818758"
