@@ -1,0 +1,5 @@
+# Project-owned codegen timing recipe (read by snesrecomp_cli.py generate and setup launcher).
+# Required for exact cycle- and scanline-accurate H/V raster IRQ alignment with Pure LLE.
+schema = 1
+instruction_blocks = true
+region_paced = true

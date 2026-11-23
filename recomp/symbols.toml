@@ -1041,8 +1041,8 @@ addr = "c14f"
 bank = 0x81
 entry_m = 0
 entry_x = 0
-emit = true
-note = "R2-stage1: from 0x8000CA (hits=1363)"
+emit = false
+note = "R2-stage1: from 0x8000CA (hits=1363) | force_lle: H/V raster HUD IRQ exact HBlank MMIO timing"
 
 [[func]]
 name = "T2_81C1A3"
@@ -1050,8 +1050,8 @@ addr = "c1a3"
 bank = 0x81
 entry_m = 0
 entry_x = 0
-emit = true
-note = "R2-stage1: from 0x8000CA (hits=1363)"
+emit = false
+note = "R2-stage1: from 0x8000CA (hits=1363) | force_lle: H/V raster HUD IRQ exact HBlank MMIO timing"
 
 [[func]]
 name = "T2_81C1B3"
@@ -1059,8 +1059,8 @@ addr = "c1b3"
 bank = 0x81
 entry_m = 0
 entry_x = 0
-emit = true
-note = "R2-stage1: from 0x8000CA (hits=1363)"
+emit = false
+note = "R2-stage1: from 0x8000CA (hits=1363) | force_lle: H/V raster HUD IRQ exact HBlank MMIO timing"
 
 [[func]]
 name = "T2_81C227"
@@ -1068,8 +1068,8 @@ addr = "c227"
 bank = 0x81
 entry_m = 0
 entry_x = 0
-emit = true
-note = "R2-stage1: from 0x8000CA (hits=1363)"
+emit = false
+note = "R2-stage1: from 0x8000CA (hits=1363) | force_lle: H/V raster HUD IRQ exact HBlank MMIO timing"
 
 [[func]]
 name = "T2_81C237"
@@ -1077,8 +1077,8 @@ addr = "c237"
 bank = 0x81
 entry_m = 0
 entry_x = 0
-emit = true
-note = "R2-stage1: from 0x8000CA (hits=1363)"
+emit = false
+note = "R2-stage1: from 0x8000CA (hits=1363) | force_lle: H/V raster HUD IRQ exact HBlank MMIO timing"
 
 [[func]]
 name = "T2_81C28A"
@@ -1086,8 +1086,8 @@ addr = "c28a"
 bank = 0x81
 entry_m = 0
 entry_x = 0
-emit = true
-note = "R2-stage1: from 0x8000CA (hits=1363)"
+emit = false
+note = "R2-stage1: from 0x8000CA (hits=1363) | force_lle: H/V raster HUD IRQ exact HBlank MMIO timing"
 
 [[func]]
 name = "T2_81C308"
@@ -1095,8 +1095,8 @@ addr = "c308"
 bank = 0x81
 entry_m = 0
 entry_x = 0
-emit = true
-note = "R2-stage1: from 0x8000CA (hits=1363)"
+emit = false
+note = "R2-stage1: from 0x8000CA (hits=1363) | force_lle: H/V raster HUD IRQ exact HBlank MMIO timing"
 
 [[func]]
 name = "T2_81CA99"
