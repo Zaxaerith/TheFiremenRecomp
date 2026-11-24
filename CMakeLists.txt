@@ -131,15 +131,27 @@ include(${RECOMP_UI_ROOT}/recomp_ui.cmake)
 recomp_target_launcher_ui(TheFiremenSNESRecomp CONSOLE snes
     BOXART "${CMAKE_SOURCE_DIR}/launcher_assets/img/boxart.tga")
 
+# Windows GUI subsystem: explicit WIN32_EXECUTABLE keeps Explorer double-click
+# free of a CUI console regardless of SDL2/SDL3 link flags, while preserving
+# inherited pipe stdout/stderr for headless/CI scripts.
+set_target_properties(TheFiremenSNESRecomp PROPERTIES
+    WIN32_EXECUTABLE TRUE
+)
+
 # Generate & rebuild from inside the launcher: pick ROM -> recompile locally
-# -> cmake --build -> relaunch. The implementation is the framework's; this
-# project contributes no configuration (snesrecomp_codegen_host_autowire in
-# src/main.c). recomp-ui/src is on the include path because the host speaks
-# RecompLauncherCGameInfo.
-target_sources(TheFiremenSNESRecomp PRIVATE
-    ${SNESRECOMP_ROOT}/host/snesrecomp_codegen_host.c)
+# -> cmake --build -> relaunch. Upstream snesrecomp_codegen_host.c calls
+# system("where ...") during launcher init (which flashes a Windows Terminal
+# ConPTY window on Windows 11 when launched from Explorer), so compile it only
+# for setup-host builds or when explicitly opted in via FIREMEN_LAUNCHER_CODEGEN.
+option(FIREMEN_LAUNCHER_CODEGEN
+    "Enable in-launcher Generate & rebuild (spawns cmd/where probe on Windows)" OFF)
+if(SNESRECOMP_SETUP_HOST OR FIREMEN_LAUNCHER_CODEGEN)
+    target_sources(TheFiremenSNESRecomp PRIVATE
+        ${SNESRECOMP_ROOT}/host/snesrecomp_codegen_host.c)
+    target_include_directories(TheFiremenSNESRecomp PRIVATE
+        ${SNESRECOMP_ROOT}/host)
+endif()
 target_include_directories(TheFiremenSNESRecomp PRIVATE
-    ${SNESRECOMP_ROOT}/host
     ${RECOMP_UI_ROOT}/src)
 
 # Netplay is not built into this target.
