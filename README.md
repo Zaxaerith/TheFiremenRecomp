@@ -13,7 +13,11 @@ Top-down action firefighting game for Super Famicom (`FastROM LoROM`, no coproce
 
 ## Status
 
-Active playable recompilation (`337` AOT-eligible / `8` LLE-only exact variants across banks `$00/$80/$81/$82/$9F` via `recomp/generate.toml` `instruction_blocks + region_paced`), verified across 5 headless regression scenarios (`15,399` total frames) against Pure LLE.
+Playable alpha recompilation (`0.1.0-alpha`):
+
+- **Engine & Verified AOT Coverage**: `337` AOT-eligible / `8` LLE-only exact variants across banks `$00/$80/$81/$82/$9F` (`recomp/generate.toml`: `instruction_blocks = true`, `region_paced = true`).
+- **Pure LLE Equivalence**: Verified across 5 headless regression scenarios (`15,399` total frames) with `unresolved_abandons = 0` — `0` master-clock / `0`-pixel divergence on `stage1`, `m6_config`, `m6_stage1_deep`, and `m7_gameover` (note: `m7_expert` shows a transient `+26` CPU-cycle / `29 px` dialogue-only boundary diff at frame `2442` inside `$81:8DB1` that recovers to `0 px` in gameplay).
+- **Full Playthrough via Unified Launcher**: Select your verified Japanese ROM in the `recomp-ui` launcher to play through the entire game seamlessly — uncovered later-floor routines (2F–6F) automatically execute through the integrated LLE fallback.
 
 ## ROM identity
 
@@ -76,29 +80,25 @@ than mis-executing ten frames in.
 | `src/` | Host code you own: `main.c`, `game_rtl.c` |
 | `src/gen/` | Generated C. Never committed — regenerate locally |
 | `snesrecomp/` | Framework submodule (owns `lib/recomp-net`, `lib/retcomm-rbengine`) |
-| `tools/` | `regen.sh` — the ROM → C pipeline |
+| `tools/` | `regen.sh` (ROM → C), `play_capture.ps1` & `ingest_manual.ps1` (2F–6F Tier-2 capture/ingest) |
 | `scripts/` | `package_release.sh` — player-facing zip |
 | `framework_pins.txt` | Exact framework commits this project was scaffolded against |
 
-## Porting from here
+## Contributing Coverage (2F–6F)
 
-The scaffold stops where the game-specific work starts. In rough order:
+Players and contributors on Windows can help expand AOT coverage for later floors (2F–6F / Bosses / Ending) using the built-in Tier-2 capture & ingestion workflow:
 
-1. **Make it boot.** `src/game_rtl.c` holds the frame driver. It starts on
-   the framework's beam-aligned driver (`snesrecomp/runner/src/beam_frame_driver.h`):
-   one frame per PPU field, interrupts taken where the beam latches them,
-   the field rasterized from the raster journal. A title whose main loop it
-   does not fit replaces those calls with its own driver.
-2. **Name things.** Add entries to `recomp/symbols.toml` as you identify
-   routines, then re-run `tools/regen.sh`. Set `emit = true` to promote one
-   into ahead-of-time analysis; leave it false to keep it interpreted.
-   Regen synchronizes the marked blocks in each bank cfg, creating missing
-   configs. Only proven variants become AOT code. See `recomp/README.md`.
-3. **Resolve dispatch misses.** After every run, deal with unresolved
-   indirect targets before anything else — they are the reason a port
-   diverges, and they are cheap to fix early.
-4. **Never synthesise a result** to get past uncovered code, and never edit
-   `src/gen/` by hand. Fix the config or the framework and regenerate.
+1. **Record a manual playthrough** with live coverage capture enabled:
+   ```powershell
+   pwsh -NoProfile -File .\tools\play_capture.ps1
+   ```
+   This saves discovered entry points to `.tmp\manual_captures\run_YYYYMMDD_HHMMSS.json`.
+2. **Ingest and validate discoveries** into `recomp/symbols.toml` (auto-protecting new `$80:00CA` raster IRQs with `emit = false` and filtering `indirect_dispatch` jump-table duplicates):
+   ```powershell
+   pwsh -NoProfile -File .\tools\ingest_manual.ps1 .tmp\manual_captures\*.json -DryRun
+   pwsh -NoProfile -File .\tools\ingest_manual.ps1 .tmp\manual_captures\*.json -Rebuild
+   ```
+3. **Verify zero divergence**: Always confirm `unresolved_abandons = 0` and verify any new stage scenes against Pure LLE before submitting changes to `recomp/`. Never commit ROM files or `src/gen/*.c`.
 
 ## Multiplayer
 
